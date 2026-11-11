@@ -4,7 +4,7 @@
 // its position (relative to the player). The hook moves it along a slowly drifting wind direction, wraps it so that
 // clouds stay near the player, and raises it with the distance. It is a mid-function hook on the two instructions
 // `push eax / lea ecx,[esp+0xE50]` (8 bytes), which then run unchanged.
-#include "../../common.hpp"
+#include "../common.hpp"
 
 #include <cmath>
 #include <cstdlib>
